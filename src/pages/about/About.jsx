@@ -1,43 +1,43 @@
 // icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaWordpress,
-  FaFigma,
-} from "react-icons/fa";
+// import {
+//   FaHtml5,
+//   FaCss3,
+//   FaJs,
+//   FaReact,
+//   FaWordpress,
+//   FaFigma,
+// } from "react-icons/fa";
 
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
-} from "react-icons/si";
+// import {
+//   SiNextdotjs,
+//   SiFramer,
+//   SiAdobexd,
+//   SiAdobephotoshop,
+// } from "react-icons/si";
 
 
 //  data
 const aboutData = [
   {
     title: 'skills',
-    info: [
-      {
-        title: 'Web Development',
-        icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
-        ],
-      },
-      {
-        title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-      },
-    ],
+    // info: [
+    //   {
+    //     title: 'Web Development',
+    //     icons: [
+    //       <FaHtml5 />,
+    //       <FaCss3 />,
+    //       <FaJs />,
+    //       <FaReact />,
+    //       <SiNextdotjs />,
+    //       <SiFramer />,
+    //       <FaWordpress />,
+    //     ],
+    //   },
+    //   {
+    //     title: 'UI/UX Design',
+    //     icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+    //   },
+    // ],
   },
   {
     title: 'awards',

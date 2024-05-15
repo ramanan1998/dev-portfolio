@@ -39,18 +39,22 @@ export const navData = [
 
 const Nav = () => {
   return (
-    <nav className="border border-white w-full flex flex-row xl:flex-col items-center justify-between gap-10">
-      {navData.map((link) => (
-        <NavLink
-          key={link.name}
-          to={link.path}
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
-        >
-          {link.icon}
-        </NavLink>
-      ))}
+    <nav className="fixed bottom-3 xl:bottom-[20%] xl:right-2 w-full xl:w-fit flex justify-center items-center">
+      <div className="flex flex-row items-center xl:flex-col justify-between gap-0 w-full md:w-fit md:gap-12 py-3 px-7 xl:px-3 bg-white/10 rounded-full">
+        {navData.map((link) => (
+          <NavLink
+            key={link.name}
+            title={link.name}
+            to={link.path}
+            className={({ isActive }) =>
+              isActive ? "text-accent transition-all ease-linear duration-200" : "hover:text-accent transition-all ease-linear duration-200"
+            }
+          >
+            {link.icon}
+          </NavLink>
+        ))}
+
+      </div>
     </nav>
   );
 };

@@ -1,5 +1,9 @@
-const Work = () => {
-  return <div>Work</div>;
-};
+import React from 'react'
 
-export default Work;
+function Work() {
+  return (
+    <div>Work</div>
+  )
+}
+
+export default Work

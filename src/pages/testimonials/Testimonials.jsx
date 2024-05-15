@@ -1,5 +1,9 @@
-const Testimonials = () => {
-  return <div>Testimonials</div>;
-};
+import React from 'react'
 
-export default Testimonials;
+function Testimonials() {
+  return (
+    <div>Testimonials</div>
+  )
+}
+
+export default Testimonials
