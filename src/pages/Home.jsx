@@ -1,5 +1,11 @@
-const Home = () => {
-  return <div>Home</div>;
-};
+import { motion } from "framer-motion";
 
-export default Home;
+function Home() {
+  return (
+    <motion.div>
+      Home
+    </motion.div>
+  )
+}
+
+export default Home

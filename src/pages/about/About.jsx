@@ -15,6 +15,7 @@
 //   SiAdobephotoshop,
 // } from "react-icons/si";
 
+import { motion } from "framer-motion";
 
 //  data
 const aboutData = [
@@ -88,8 +89,13 @@ const aboutData = [
   },
 ];
 
-const About = () => {
-  return <div>About</div>;
-};
 
-export default About;
+function About() {
+  return (
+    <motion.div>
+      About
+    </motion.div>
+  )
+}
+
+export default About

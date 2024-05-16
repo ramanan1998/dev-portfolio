@@ -1,8 +1,10 @@
-import React from 'react'
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <motion.div>
+      Contact
+    </motion.div>
   )
 }
 

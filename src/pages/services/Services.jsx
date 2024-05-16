@@ -1,8 +1,10 @@
-import React from 'react'
+import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <div>Services</div>
+    <motion.div>
+      Services
+    </motion.div>
   )
 }
 
