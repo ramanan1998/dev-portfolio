@@ -1,4 +1,4 @@
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const transitionVariants = {
   initial: {
@@ -25,8 +25,8 @@ function Transition() {
       initial="initial"
       animate="animate"
       transition={{
-        delay: 0.2,
-        duration: 2,
+        delay: 0.1,
+        duration: 1,
         ease: "easeInOut"
       }}
     ></motion.div>
@@ -36,8 +36,8 @@ function Transition() {
       initial="initial"
       animate="animate"
       transition={{
-        delay: 0.4,
-        duration: 2,
+        delay: 0.3,
+        duration: 1,
         ease: "easeInOut"
       }}
     ></motion.div>
@@ -47,8 +47,8 @@ function Transition() {
       initial="initial"
       animate="animate"
       transition={{
-        delay: 0.6,
-        duration: 2,
+        delay: 0.5,
+        duration: 1,
         ease: "easeInOut"
       }}
     ></motion.div>
