@@ -16,7 +16,8 @@ const transitionVariants = {
 
 }
 
-function Transition() {
+function Transition({ children }) {
+  
   return (
     <>
     <motion.div 
@@ -52,6 +53,7 @@ function Transition() {
         ease: "easeInOut"
       }}
     ></motion.div>
+    {children}
     </>
   )
 }

@@ -1,5 +1,5 @@
 // icons
-import { BarChartBig, MessageCircleCode, Send, Tent, User, Wrench } from "lucide-react";
+import { BarChartBig, Send, Tent, User, Wrench } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 
@@ -22,14 +22,9 @@ const Nav = () => {
       icon: <BarChartBig />
     },
     { 
-      name: 'work', 
-      path: '/work', 
+      name: 'Projects', 
+      path: '/projects', 
       icon: <Wrench />
-    },
-    {
-      name: 'testimonials',
-      path: '/testimonials',
-      icon: <MessageCircleCode />,
     },
     {
       name: 'contact',
