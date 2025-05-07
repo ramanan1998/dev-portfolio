@@ -3,7 +3,7 @@ import * as React from 'react';
  
 export function GradualSpacing() {
 
-  const textArray = [ "Full-Stack Developer", "Web Designer", "Problem Solver", "Product Planner", "Learner", "Gamer", "Dog Lover", "Minimalist", "Normal Person" ];
+  const textArray = [ "Full-Stack Developer", "Web Designer", "Problem Solver", "Learner", "Dog Lover", "Normal Person" ];
 
   const [ count, setCount ] = React.useState(0);
 

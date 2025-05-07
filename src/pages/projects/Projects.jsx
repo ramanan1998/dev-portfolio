@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
-function Services() {
+function Projects() {
   return (
     <motion.div>
-      Services
+      Projects
     </motion.div>
   )
 }
 
-export default Services
+export default Projects

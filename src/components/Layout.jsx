@@ -1,7 +1,6 @@
 import { useLocation, useOutlet } from "react-router-dom";
 // import Header from "./Header";
 import Nav from "./Nav";
-import TopLeftImg from "./TopLeftImg";
 import Transition from "./Transition";
 import React from "react";
 import { AnimatePresence } from "framer-motion";
@@ -11,9 +10,9 @@ const Layout = () => {
   const { pathname } = useLocation();
   const element = useOutlet();
 
-  return <div className="page bg-site bg-cover bg-no-repeat font-sora relative text-white">
+  return <div className="page bg-site bg-cover bg-no-repeat font-sora relative text-white overflow-y-scroll">
     <Transition/>
-    <TopLeftImg/>
+    {/* <TopLeftImg/> */}
     <Nav/>
     {/* <Header/> */}
     <AnimatePresence mode="wait">

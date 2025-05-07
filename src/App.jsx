@@ -1,12 +1,11 @@
 import { Route, Routes, useLocation } from "react-router-dom"
 import Layout from "./components/Layout"
 import Home from "./pages/Home"
-import About from "./pages/about/About";
-import Experience from "./pages/experience/Experience";
 import Work from "./pages/work/Work";
 import Contact from "./pages/contact/Contact";
 import { AnimatePresence } from "framer-motion";
 import Transition from "./components/Transition";
+import Projects from "./pages/projects/Projects";
 
 
 function App() {
@@ -15,19 +14,14 @@ function App() {
 
   const routes = [
     { 
-      name: 'about', 
-      path: '/about', 
-      component: <Transition><About/></Transition>
-    },
-    { 
-      name: 'experience', 
-      path: '/experience', 
-      component: <Transition><Experience/></Transition>
+      name: 'work', 
+      path: '/work', 
+      component: <Transition><Work/></Transition>
     },
     { 
       name: 'Projects', 
       path: '/projects', 
-      component: <Transition><Work/></Transition>
+      component: <Transition><Projects/></Transition>
     },
     {
       name: 'contact',
