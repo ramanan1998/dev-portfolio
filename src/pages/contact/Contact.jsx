@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <motion.div className="h-full w-full bg-gradient-to-r from-primary/10 via-black/30 to-black/30 px-2 flex flex-col xl:flex-row justify-start items-center">
-      <div className="text-center w-full px-20">
+    <motion.div className="h-full w-full bg-gradient-to-r from-primary/10 via-black/30 to-black/30 px-5 lg:px-20 flex flex-col xl:flex-row justify-start items-center">
+      <div className="text-center w-full mt-20 lg:mt-1">
         <div>
           <motion.h1 
             className="h1"

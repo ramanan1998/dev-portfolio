@@ -3,8 +3,8 @@ import { fadeIn } from "../../lib/variants/variants";
 
 function Work() {
   return (
-    <motion.div className="w-full bg-gradient-to-r from-primary/10 via-black/30 to-black/30 px-[20%] pt-2 lg:pt-[5%] pb-20">
-      <div className="text-left w-full">
+    <motion.div className="w-full bg-gradient-to-r from-primary/10 via-black/30 to-black/30 px-5 lg:px-[20%] pt-2 lg:pt-[5%] pb-20">
+      <div className="text-left w-full mt-20 lg:mt-1">
         <div>
           <motion.h1 
             className="h1"
