@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../../lib/variants/variants";
+import { fadeIn } from "../../lib/variants";
 
 function Work() {
   return (
@@ -45,73 +45,79 @@ function Work() {
           </motion.p>
 
           <ul className="list-disc pl-5">
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Designed and developed fully-featured web applications using React, TypeScript, Node.js, and Express.
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+              </p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Implemented authentication and authorization using JWT, and role-based access control (RBAC) for secure
                 user management.
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+              </p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Handled Interactivity and responsiveness for Websites and Web Applications using tailwind CSS and Framer
                 motion.
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+              </p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Managed databases efficiently with MongoDB/PostgreSQL and optimizing queries.
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+              </p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Successfully integrating RESTful APIs and JSONs into the frontend with proper error handling techniques
                 and enabling seamless data exchange between server and client.
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+              </p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Maintained and documented key aspects of the codebase such as folder structure, Type checking, Utility
                 functions, Role based authentication and payment gateway related features.
-              </motion.p>
-            </li>
+              </p>
+            </motion.li>
           </ul>
         </div>
-        <hr className="mt-5" />
+        <motion.hr 
+          className="mt-5 border-slate-500" 
+          variants={fadeIn("down", 1.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        />
         <div>
           <motion.p
             className="mt-5 text-xl font-medium text-white"
@@ -140,39 +146,45 @@ function Work() {
           </motion.p>
 
           <ul className="list-disc pl-5">
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Developed and Maintained test plans and test cases for the web product
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+              </p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Conducted regular software tests and analyzing functionalities and defects of the software.
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
+              </p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>
                 Written documentation, defect reports and make recommendations for repairing the defects
-              </motion.p>
-            </li>
+              </p>
+            </motion.li>
           </ul>
         </div>
-        <hr className="mt-5" />
+        <motion.hr 
+          className="mt-5 border-slate-500" 
+          variants={fadeIn("down", 1.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        />
         <div>
           <motion.h1 
             className="h1 mt-5"

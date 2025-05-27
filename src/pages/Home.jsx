@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import ProjectsBtn from "../components/ProjectsBtn";
-import { fadeIn } from "../lib/variants/variants";
 import { GradualSpacing } from "../components/GradualSpacing";
-import { Link } from "react-router-dom";
+import { fadeIn } from "../lib/variants";
 
 function Home() {
   return (

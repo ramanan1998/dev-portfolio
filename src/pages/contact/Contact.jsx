@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../../lib/variants/variants";
 import { Icons } from "../../assets/Icons";
-import { Link } from "react-router-dom";
+import { fadeIn } from "../../lib/variants";
 
 
 function Contact() {

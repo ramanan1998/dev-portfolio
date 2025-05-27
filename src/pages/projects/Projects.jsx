@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../../lib/variants/variants";
+import { fadeIn } from "../../lib/variants";
 
 
 function Projects() {
@@ -39,49 +39,43 @@ function Projects() {
           </motion.p>
 
           <ul className="list-disc pl-5 mt-2">
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Built with React, TypeScript, Tailwind CSS, Hero UI, and Framer Motion
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Integrated a multi-step job application form with real-time validation
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Developed Express + MongoDB backend for applicant tracking and data storage
-              </motion.p>
-            </li>
-          </ul>
-
-          <motion.p
-              className="mt-2 text-md font-medium text-white"
+            <motion.li
               variants={fadeIn("down", 1.2)}
               initial="hidden"
               animate="show"
               exit="hidden"
             >
-              Tech Stack: React, TypeScript, Tailwind CSS, Redux, Framer Motion, Express.js, Mongo DB 
-            </motion.p>
+              <p>Built with React, TypeScript, Tailwind CSS, Hero UI, and Framer Motion</p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Integrated a multi-step job application form with real-time validation</p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Developed Express + MongoDB backend for applicant tracking and data storage</p>
+            </motion.li>
+          </ul>
+
+          <motion.p
+            className="mt-2 text-md font-medium text-white"
+            variants={fadeIn("down", 1.2)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+          >
+            Tech Stack: React, TypeScript, Tailwind CSS, Redux, Framer Motion, Express.js, Mongo DB 
+          </motion.p>
         </div>
-        <hr className="mt-5 border-slate-500" />
+        {/* <hr className="mt-5 border-slate-500" />
         <div>
           <a target="_blank" href="https://blackwinstech.com/">
             <motion.p
@@ -147,10 +141,83 @@ function Projects() {
             >
               Tech Stack: React, React Native, Firebase, Redux, Amadeus API, Systempay API
             </motion.p>
-        </div>
-        <hr className="mt-5 border-slate-500" />
+        </div> */}
+        <motion.hr 
+          className="mt-5 border-slate-500" 
+          variants={fadeIn("down", 1.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        />
         <div>
-          <a target="_blank" href="https://blackwinstech.com/">
+          <a target="_blank" href="https://intelliresponse.ai/">
+            <motion.p
+              className="mt-5 text-xl font-medium text-white hover:underline"
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              Intelliresponse - Review Management Platform
+            </motion.p>
+          </a>
+
+          <motion.p
+            className="mt-3"
+            variants={fadeIn("down", 1.2)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+          >
+            Automated Google review replies using OpenAI, helping businesses manage customer sentiment.
+          </motion.p>
+
+          <ul className="list-disc pl-5 mt-2">
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Designed dashboards with analytics and filters</p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Integrated subscription billing using Razorpay</p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Enabled secure, role-based access with PostgreSQL + Express.js</p>
+            </motion.li>
+          </ul>
+
+          <motion.p
+              className="mt-2 text-md font-medium text-white"
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              Tech Stack: React, Node.js, Tailwind CSS, PostgreSQL, OpenAI, Razorpay
+            </motion.p>
+        </div>
+        <motion.hr 
+          className="mt-5 border-slate-500" 
+          variants={fadeIn("down", 1.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        />
+        <div>
+          <a target="_blank" href="https://blackwinstech.com/projects/marathon-app">
             <motion.p
               className="mt-5 text-xl font-medium text-white hover:underline"
               variants={fadeIn("down", 1.2)}
@@ -173,36 +240,30 @@ function Projects() {
           </motion.p>
 
           <ul className="list-disc pl-5 mt-2">
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Handled 2000+ user registrations with zero downtime
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Integrated PhonePe API for real-time payments
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Included an admin dashboard for event and payment oversight 
-              </motion.p>
-            </li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Handled 2000+ user registrations with zero downtime</p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Integrated PhonePe API for real-time payments</p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Included an admin dashboard for event and payment oversight </p>
+            </motion.li>
           </ul>
 
           <motion.p
@@ -215,74 +276,13 @@ function Projects() {
               Tech Stack: React, PostgreSQL, Tailwind, Express.js, PhonePe API
             </motion.p>
         </div>
-        <hr className="mt-5 border-slate-500" />
-        <div>
-          <a target="_blank" href="https://blackwinstech.com/">
-            <motion.p
-              className="mt-5 text-xl font-medium text-white hover:underline"
-              variants={fadeIn("down", 1.2)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
-            >
-              Review Management Platform
-            </motion.p>
-          </a>
-
-          <motion.p
-            className="mt-3"
-            variants={fadeIn("down", 1.2)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-          >
-            Automated Google review replies using OpenAI, helping businesses manage customer sentiment.
-          </motion.p>
-
-          <ul className="list-disc pl-5 mt-2">
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Designed dashboards with analytics and filters
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Integrated subscription billing using Razorpay
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Enabled secure, role-based access with PostgreSQL + Express.js
-              </motion.p>
-            </li>
-          </ul>
-
-          <motion.p
-              className="mt-2 text-md font-medium text-white"
-              variants={fadeIn("down", 1.2)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
-            >
-              Tech Stack: React, Node.js, Tailwind CSS, PostgreSQL, OpenAI, Razorpay
-            </motion.p>
-        </div>
-        <hr className="mt-5 border-slate-500" />
+        <motion.hr 
+          className="mt-5 border-slate-500" 
+          variants={fadeIn("down", 1.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        />
         <div>
           <motion.h1 
             className="h1 mt-5"
@@ -317,26 +317,22 @@ function Projects() {
           </motion.p>
 
           <ul className="list-disc pl-5 mt-2">
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Created a clean UI with Material UI + React Query
-              </motion.p>
-            </li>
-            <li>
-              <motion.p
-                variants={fadeIn("down", 1.2)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-              >
-                Integrated Claude API for intelligent summarization
-              </motion.p>
-            </li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Created a clean UI with Material UI + React Query</p>
+            </motion.li>
+            <motion.li
+              variants={fadeIn("down", 1.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+            >
+              <p>Integrated Claude API for intelligent summarization</p>
+            </motion.li>
           </ul>
 
           <motion.p

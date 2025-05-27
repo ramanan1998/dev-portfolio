@@ -24,7 +24,6 @@ export default {
 
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
